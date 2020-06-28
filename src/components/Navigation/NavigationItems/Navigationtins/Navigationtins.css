@@ -1,0 +1,48 @@
+.Navigationtins{
+    margin:10px 0;
+    display: flex;
+    box-sizing: block;
+    width: 100%;
+}
+.Navigationtins a{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+   
+}
+.Navigationtins a:hover,
+.Navigationtins a:active,
+.Navigationtins a.active{
+    color: blue;
+}
+
+
+@media (min-width: 500px) {
+    .Navigationtins{
+        margin: 0;
+        display: flex;
+        width: auto;
+        height: 100%;
+        align-items: center;
+    }
+    .Navigationtins a{
+        color: black;
+        height: 100%;
+        padding: 16px 10px;
+        border-bottom: 4px solid transparent;
+    }
+    .Navigationtins a:hover,
+    .Navigationtins a:active,
+    .Navigationtins a.active{
+        background-color:yellow;
+        border-bottom: 4px;
+        color: black;
+    }
+    
+}
+
+
+
+
